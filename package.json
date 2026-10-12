@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "description": "Erra Auto Lead: multi-session WhatsApp ingestion to Firestore using text rules",
-  "scripts": { "start": "node src/server.js", "dev": "node --watch src/server.js" },
+  "scripts": { "start": "node server.js", "dev": "node --watch src/server.js" },
   "engines": { "node": ">=20.0.0" },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.18",
